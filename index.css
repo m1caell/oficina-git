@@ -74,12 +74,16 @@ body {
 
 .main {
   display: flex;
-  justify-content: center;
   width: 100%;
+  position: relative;
+  justify-content: space-between;
 }
 
 .gif {
-  flex: 1;
   margin: 86px;
+  max-width: 50%;
+}
+
+.gif > div {
   border: 10px double #f05033;
 }
